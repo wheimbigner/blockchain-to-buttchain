@@ -43,10 +43,12 @@ function handleText(textNode)
 	v = v.replace(/\bBlockchain\b/g, "Buttchain");
 	v = v.replace(/\bblock chain\b/g, "butt chain");
 	v = v.replace(/\bBlock chain\b/g, "Butt chain");
+	v = v.replace(/\bblockchains\b/g, "buttchains");
+	v = v.replace(/\bBlockchains\b/g, "Buttchains");
+	v = v.replace(/\bblock chains\b/g, "butt chains");
+	v = v.replace(/\bBlock chains\b/g, "Butt chains");
 	v = v.replace(/\bWeb3(\.0)?\b/g, "TripleButt");
 	v = v.replace(/\bWeb 3(\.0)?\b/g, "Triple Butt");
 	
 	textNode.nodeValue = v;
 }
-
-
